@@ -1,0 +1,18 @@
+apt-get update && apt-get install -y \
+    libxcb-shm0 \
+    libx11-xcb1 \
+    libxrandr2 \
+    libxcomposite1 \
+    libxcursor1 \
+    libxdamage1 \
+    libxfixes3 \
+    libxi6 \
+    libgtk-3-0 \
+    libpangocairo-1.0-0 \
+    libpango-1.0-0 \
+    libatk1.0-0 \
+    libcairo-gobject2 \
+    libcairo2 \
+    libgdk-pixbuf-2.0-0 \
+    libxrender1 \
+    libasound2
