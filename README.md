@@ -8,16 +8,16 @@
 * Перейти в папку и установи виртуальное окружение
   ```shell
   cd test_Effective_Mobile
-  python3 -m venv venv
+  python3 -m venv venv    # для macOS
   # или
-  python -m venv venv
+  python -m venv venv     # для Windows
   ```
 
 * Активировать только что созданное виртуальное окружение
   ```shell
-  source venv/bin/activate # для macOS
+  source venv/bin/activate  # для macOS
   # или
-  .\venv\Scripts\activate # для Windows
+  .\venv\Scripts\activate   # для Windows
   ```
 
 * Установить зависимости из requirements.txt
@@ -29,15 +29,16 @@
   ```shell
   playwright install
   # или, если хочешь поставить только firefox:
-  python3 -m playwright install firefox
+  python3 -m playwright install firefox # для macOS
+  python -m playwright install firefox  # для Windows
   ```
 
 * Создать файл с переменными окружения и заполнить его по образу .env_example
 * Запустить написанные тесты
   ```shell
-  python3 -m pytest
+  python3 -m pytest   # для macOS
   # или
-  python -m pytest
+  python -m pytest    # для Windows
   # после завершения всех тестов в папке reports будет сформирован allure отчет и трассировка по UI тестам
   ```
   

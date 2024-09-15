@@ -1,4 +1,4 @@
-from pydantic import BaseModel
+from pydantic import BaseModel, ConfigDict
 
 from typing import Dict
 
@@ -14,5 +14,6 @@ class CreateSchema(BaseModel):
     description: str | None
     url: str
 
-    class Config:
-        extra = 'ignore'
+    model_config = ConfigDict(
+        extra='ignore'
+    )
