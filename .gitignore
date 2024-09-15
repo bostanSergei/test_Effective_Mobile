@@ -1,0 +1,18 @@
+# cache
+__pycache__/
+*.pyc
+
+# system files
+.DS_Store
+/venv
+/.venv
+/.idea
+
+# jupiter, logs
+*.ipynb
+*.log
+
+# VScode files and directories
+.vscode
+
+.env
